@@ -29,3 +29,16 @@ Comprehensive procedures for model setup and hyperparameter tuning, as well as m
 
 <img src="https://github.com/johnwslee/fine_dust_analysis_2/blob/main/img/prediction_result.png" style="width:800px;height:400px;background-color:white">
 
+## How to Run the Notebooks Locally
+
+To download the contents of this GitHub page on to your local machine, follow these steps:
+
+1. Copy and paste the following link: `git clone https://github.com/johnwslee/fine_dust_analysis_2.git` to your Terminal.
+
+2. On your terminal, type: `cd fine_dust_analysis_2`.
+
+3. Create a virtualenv by typing: `conda env create -f env.yml`
+
+4. Activate the virtualenv by typing: `conda activate finedust_env`
+
+5. Run the notebooks in notebook folder in order.
