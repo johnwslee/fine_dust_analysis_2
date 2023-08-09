@@ -25,7 +25,7 @@ The architecture of the models was refined through the implementation of the `op
 </p>
 <img src="https://github.com/johnwslee/fine_dust_analysis_2/blob/main/img/roc_curve.png" style="width:500px;height:400px;background-color:white">
 
-Comprehensive procedures for model setup and hyperparameter tuning, as well as model evaluations, are outlined in the [modeling notebook](https://github.com/johnwslee/fine_dust_analysis_2/blob/main/notebooks/1_1d_CNN_model_training_with_hyper_opt.ipynb) and [evaluation notebook](https://github.com/johnwslee/fine_dust_analysis_2/blob/main/notebooks/2_1d_CNN_model_evaluation.ipynb) respectively. The subsequent illustration provides a preview of predictions alongside actual labels.
+Comprehensive procedures for model setup and hyperparameter tuning, as well as model evaluations, are outlined in the [modeling_notebook](https://github.com/johnwslee/fine_dust_analysis_2/blob/main/notebooks/1_1d_CNN_model_training_with_hyper_opt.ipynb) and [evaluation_notebook](https://github.com/johnwslee/fine_dust_analysis_2/blob/main/notebooks/2_1d_CNN_model_evaluation.ipynb) respectively. The subsequent illustration provides a preview of predictions alongside actual labels.
 
 <img src="https://github.com/johnwslee/fine_dust_analysis_2/blob/main/img/prediction_result.png" style="width:800px;height:400px;background-color:white">
 
