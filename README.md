@@ -17,8 +17,8 @@ Given that the input data for prediction exists in the form of a time series, a 
 
 <img src="https://github.com/johnwslee/fine_dust_analysis_2/blob/main/img/features_for_DL.png" style="width:800px;height:400px;background-color:white">
 
-The architecture of the models was optimized by implementing `optuna` library, and the following figures show classification report, confusion matrix, and roc curve of the model.
+The architecture of the models was refined through the implementation of the `optuna` library. The following figures display the classification report, confusion matrix, and ROC curve of the model.
 
-<img src="https://github.com/johnwslee/fine_dust_analysis_2/blob/main/img/classification.png" style="width:500px;height:400px;background-color:white">
-<img src="https://github.com/johnwslee/fine_dust_analysis_2/blob/main/img/confusion_matrix.png" style="width:500px;height:400px;background-color:white">
+<img src="https://github.com/johnwslee/fine_dust_analysis_2/blob/main/img/classification.png" style="width:500px;height:350px;background-color:white">
+<img src="https://github.com/johnwslee/fine_dust_analysis_2/blob/main/img/confusion_matrix.png" style="width:500px;height:350px;background-color:white">
 <img src="https://github.com/johnwslee/fine_dust_analysis_2/blob/main/img/roc_curve.png" style="width:500px;height:400px;background-color:white">
