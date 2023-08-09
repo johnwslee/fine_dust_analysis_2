@@ -13,6 +13,9 @@ In this study, the objective is to predict the air quality for the upcoming day 
 
 ## 2. Modelling
 
-Since the input data for prediction is in a form of timeseries, 1-D convolutional neural network was used as the base architecture for the model. The 24-hour data of 8 input features were scaled and converted into `numpy` array. Then the arrays were stacked together so that the input data has 8 channels (Detailed procedure is shown in the [data_preprocessing_notebook](https://github.com/johnwslee/fine_dust_analysis_2/blob/main/notebooks/0_data_preprocessing.ipynb)). The following figure shows an example of input features, and the corresponding target value as the title.
+Given that the input data for prediction exists in the form of a time series, a 1-D convolutional neural network was employed as the foundational architecture for the model. The 24-hour dataset of the eight input features underwent scaling and conversion into a `NumPy` array. Subsequently, these arrays were stacked to create an input data structure with eight channels (For an in-depth process, refer to the [data_preprocessing_notebook](https://github.com/johnwslee/fine_dust_analysis_2/blob/main/notebooks/0_data_preprocessing.ipynb)). The following figure shows a representative instance of input features, accompanied by the corresponding target value as the title.
 
-<img src="https://github.com/johnwslee/fine_dust_analysis_2/blob/main/img/features_for_DL.png" style="width:800px;height:500px;background-color:white">
+<img src="https://github.com/johnwslee/fine_dust_analysis_2/blob/main/img/features_for_DL.png" style="width:800px;height:400px;background-color:white">
+
+
+
