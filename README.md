@@ -17,8 +17,13 @@ Given that the input data for prediction exists in the form of a time series, a 
 
 <img src="https://github.com/johnwslee/fine_dust_analysis_2/blob/main/img/features_for_DL.png" style="width:800px;height:400px;background-color:white">
 
-The architecture of the models was refined through the implementation of the `optuna` library. The following figures display the classification report, confusion matrix, and ROC curve of the model.
+The architecture of the models was refined through the implementation of the `optuna` library. The following figures display the classification report, confusion matrix, and ROC curve of the model. The accuracy of the prediction on the test set was 83%. 
 
 <img src="https://github.com/johnwslee/fine_dust_analysis_2/blob/main/img/classification.png" style="width:500px;height:350px;background-color:white">
 <img src="https://github.com/johnwslee/fine_dust_analysis_2/blob/main/img/confusion_matrix.png" style="width:500px;height:350px;background-color:white">
 <img src="https://github.com/johnwslee/fine_dust_analysis_2/blob/main/img/roc_curve.png" style="width:500px;height:400px;background-color:white">
+
+Comprehensive procedures for model setup and hyperparameter tuning, as well as model evaluations, are outlined in the [modeling notebook](https://github.com/johnwslee/fine_dust_analysis_2/blob/main/notebooks/1_1d_CNN_model_training_with_hyper_opt.ipynb) and [evaluation notebook](https://github.com/johnwslee/fine_dust_analysis_2/blob/main/notebooks/2_1d_CNN_model_evaluation.ipynb) respectively. The subsequent illustration provides a preview of predictions alongside actual labels.
+
+<img src="https://github.com/johnwslee/fine_dust_analysis_2/blob/main/img/prediction_result.png" style="width:800px;height:400px;background-color:white">
+
